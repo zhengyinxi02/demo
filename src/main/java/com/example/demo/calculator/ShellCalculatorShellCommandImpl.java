@@ -32,8 +32,8 @@ public class ShellCalculatorShellCommandImpl extends AbstractShellCalculatorComm
         List<String> words = input.words().stream().filter(w -> !StringUtils.isEmpty(w)).collect(Collectors.toList());
         int index = 0;
         for (String word : words) {
+            //to record current index of word at rawtext
             index = StringUtils.indexOf(rawText, word, index);
-
             Event event = null;
             try {
                 event = factory.create(word);
