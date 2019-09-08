@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -15,8 +16,8 @@ import java.util.stream.Collectors;
 
 @Slf4j
 public class Calculator {
-    private static Integer PRECISION = 15;
     private static Integer SCALE_FOR_DISPLAY = 15;
+    DecimalFormat decimalFormat;
     //stack to show to user
     private Stack<BigDecimal> values;
 
@@ -26,25 +27,19 @@ public class Calculator {
     //save all user input operation
     private Stack<String> operationHistory;
 
-    private MathContext mathContext;
 
     public Calculator() {
         values = new Stack<>();
         valueHistory = new Stack<>();
         operationHistory = new Stack<>();
-        mathContext = new MathContext(PRECISION);
+        decimalFormat = new DecimalFormat();
+        decimalFormat.setMaximumFractionDigits(SCALE_FOR_DISPLAY);
+        decimalFormat.setMinimumFractionDigits(0);
+        decimalFormat.setGroupingUsed(false);
     }
 
-    public List<BigDecimal> getValues() {
-        return new ArrayList<>(values)
-        .stream().map(v->{
-                    BigDecimal result = v.plus();
-                    if(result.scale()> SCALE_FOR_DISPLAY){
-                        result.setScale(SCALE_FOR_DISPLAY, BigDecimal.ROUND_HALF_UP);
-                    }
-
-                    return result;
-                }).collect(Collectors.toList());
+    public List<String> getValues() {
+        return new ArrayList<>(values).stream().map(v->decimalFormat.format(v)).collect(Collectors.toList());
     }
 
     // + - * /
