@@ -20,7 +20,7 @@ public class DivideEventHandler implements Handler<DivideEvent> {
     @Override
     public void onEvent(DivideEvent event) {
         calc.doBiOperation(event.getOperator(), (l, r) -> {
-            return l.divide(r);
-        });
+            return r.divide(l);
+        }, (l, r)-> !(l.signum() == 0));
     }
 }

@@ -25,6 +25,6 @@ public class SqrtEventHandler implements Handler<SqrtEvent> {
             //fixme precision?
             double sqrt = Math.sqrt(i.doubleValue());
             return new BigDecimal(sqrt);
-        });
+        },i->i.compareTo(BigDecimal.ZERO)>0);
     }
 }

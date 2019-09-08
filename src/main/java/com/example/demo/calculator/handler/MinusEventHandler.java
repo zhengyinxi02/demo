@@ -19,7 +19,7 @@ public class MinusEventHandler implements Handler<MinusEvent> {
     @Override
     public void onEvent(MinusEvent event) {
         calc.doBiOperation(event.getOperator(), (l, r) -> {
-            return l.subtract(r);
-        });
+            return r.subtract(l);
+        }, null);
     }
 }

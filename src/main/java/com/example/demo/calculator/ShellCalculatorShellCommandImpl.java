@@ -1,6 +1,7 @@
 package com.example.demo.calculator;
 
 import com.example.demo.calculator.event.Operator;
+import com.example.demo.calculator.exception.IllegalOperatorException;
 import com.example.demo.calculator.exception.InsufficientParameterException;
 import com.example.demo.calculator.CalculateEventFactory;
 import com.example.demo.event.Event;
@@ -47,6 +48,8 @@ public class ShellCalculatorShellCommandImpl extends AbstractShellCalculatorComm
                 }
             } catch (InsufficientParameterException e) {
                 return "operator " + e.getOperator()+ " (position: "+ index +"): " + "insufficient parameters\n" + stackToString();
+            } catch (IllegalOperatorException e) {
+                return "operator " + e.getOperator()+ " (position: "+ index +"): " + "illegal parameters\n" + stackToString();
             }
         }
         return stackToString();

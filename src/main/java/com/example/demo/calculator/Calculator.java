@@ -1,5 +1,6 @@
 package com.example.demo.calculator;
 
+import com.example.demo.calculator.exception.IllegalOperatorException;
 import com.example.demo.calculator.exception.InsufficientParameterException;
 import lombok.extern.slf4j.Slf4j;
 
@@ -10,11 +11,12 @@ import java.util.List;
 import java.util.Stack;
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @Slf4j
 public class Calculator {
     private static Integer PRECISION = 15;
-    private static Integer PRECISION_FOR_DISPLAY = 15;
+    private static Integer SCALE_FOR_DISPLAY = 15;
     //stack to show to user
     private Stack<BigDecimal> values;
 
@@ -34,19 +36,31 @@ public class Calculator {
     }
 
     public List<BigDecimal> getValues() {
-        return new ArrayList<>(values);
-        //.stream().map(v->v.setScale(PRECISION_FOR_DISPLAY)).collect(Collectors.toList());
+        return new ArrayList<>(values)
+        .stream().map(v->{
+                    BigDecimal result = v.plus();
+                    if(result.scale()> SCALE_FOR_DISPLAY){
+                        result.setScale(SCALE_FOR_DISPLAY, BigDecimal.ROUND_HALF_UP);
+                    }
+
+                    return result;
+                }).collect(Collectors.toList());
     }
 
     // + - * /
-    public void doBiOperation(String operation, BiFunction<BigDecimal, BigDecimal, BigDecimal> function) {
+    public void doBiOperation(String operation, BiFunction<BigDecimal, BigDecimal, BigDecimal> function, BiFunction<BigDecimal, BigDecimal, Boolean> validator) {
         //check for size, if size is less than 2 throw exception directly
         if (values.size() < 2) {
             throw new InsufficientParameterException(operation);
         }
         BigDecimal first = values.pop();
         BigDecimal second = values.pop();
-        values.push(function.apply(second, first));
+        if(validator !=null && !validator.apply(first, second)){
+            values.push(second);
+            values.push(first);
+            throw new IllegalOperatorException(operation);
+        }
+        values.push(function.apply(first, second));
         valueHistory.push(first);
         valueHistory.push(second);
         operationHistory.push(operation);
@@ -54,11 +68,16 @@ public class Calculator {
 
     // sqrt
     // and more...
-    public void doOperation(String operation, Function<BigDecimal, BigDecimal> function) {
+    public void doOperation(String operation, Function<BigDecimal, BigDecimal> function, Function<BigDecimal, Boolean> validator) {
         if (values.size() < 1) {
             throw new InsufficientParameterException(operation);
         }
+
         BigDecimal first = values.pop();
+        if(validator !=null && !validator.apply(first)){
+            values.push(first);
+            throw new IllegalOperatorException(operation);
+        }
         values.push(function.apply(first));
         valueHistory.push(first);
         operationHistory.push(operation);

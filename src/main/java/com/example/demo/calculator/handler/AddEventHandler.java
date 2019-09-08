@@ -21,8 +21,7 @@ public class AddEventHandler implements Handler<AddEvent>  {
     public void onEvent(AddEvent event) {
 
         calc.doBiOperation(event.getOperator(), (first, second)->{
-
             return first.add(second);
-        });
+        }, null);
     }
 }

@@ -21,6 +21,6 @@ public class MultiplyEventHandler implements Handler<MultiplyEvent> {
     public void onEvent(MultiplyEvent event) {
         calc.doBiOperation(event.getOperator(), (l, r) -> {
             return l.multiply(r);
-        });
+        }, null);
     }
 }
