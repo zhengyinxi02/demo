@@ -135,4 +135,4 @@ quit
 
 ## License
 
-[MIT](LICENSE) © Richard Littauer
+[MIT](LICENSE) © Yinxi Zheng
