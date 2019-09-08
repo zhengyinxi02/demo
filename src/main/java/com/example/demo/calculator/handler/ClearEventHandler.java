@@ -12,10 +12,6 @@ public class ClearEventHandler implements Handler<ClearEvent> {
     @Autowired
     Calculator calc;
 
-    @Override
-    public Class<ClearEvent> getEventClass() {
-        return ClearEvent.class;
-    }
 
     @Override
     public void onEvent(ClearEvent event) {

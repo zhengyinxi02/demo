@@ -13,11 +13,6 @@ public class UndoEventHandler implements Handler<UndoEvent> {
     Calculator calc;
 
     @Override
-    public Class<UndoEvent> getEventClass() {
-        return UndoEvent.class;
-    }
-
-    @Override
     public void onEvent(UndoEvent event) {
         calc.undo();
     }

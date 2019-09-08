@@ -11,10 +11,6 @@ public class MinusEventHandler implements Handler<MinusEvent> {
 
     @Autowired
     Calculator calc;
-    @Override
-    public Class<MinusEvent> getEventClass() {
-        return MinusEvent.class;
-    }
 
     @Override
     public void onEvent(MinusEvent event) {

@@ -13,17 +13,13 @@ public class SqrtEventHandler implements Handler<SqrtEvent> {
 
     @Autowired
     Calculator calc;
-    @Override
-    public Class<SqrtEvent> getEventClass() {
-        return SqrtEvent.class;
-    }
 
     @Override
     public void onEvent(SqrtEvent event) {
-        calc.doOperation(event.getOperator(), i->{
+        calc.doOperation(event.getOperator(), i -> {
             //fixme precision?
             double sqrt = Math.sqrt(i.doubleValue());
             return new BigDecimal(sqrt);
-        },i->i.compareTo(BigDecimal.ZERO)>0);
+        }, i -> i.compareTo(BigDecimal.ZERO) > 0);
     }
 }

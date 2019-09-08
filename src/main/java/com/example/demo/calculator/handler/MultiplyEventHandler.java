@@ -13,11 +13,6 @@ public class MultiplyEventHandler implements Handler<MultiplyEvent> {
     Calculator calc;
 
     @Override
-    public Class<MultiplyEvent> getEventClass() {
-        return MultiplyEvent.class;
-    }
-
-    @Override
     public void onEvent(MultiplyEvent event) {
         calc.doBiOperation(event.getOperator(), (l, r) -> {
             return l.multiply(r);

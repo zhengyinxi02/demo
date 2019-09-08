@@ -7,20 +7,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AddEventHandler implements Handler<AddEvent>  {
+public class AddEventHandler implements Handler<AddEvent> {
 
     @Autowired
     Calculator calc;
 
     @Override
-    public Class<AddEvent> getEventClass() {
-        return AddEvent.class;
-    }
-
-    @Override
     public void onEvent(AddEvent event) {
 
-        calc.doBiOperation(event.getOperator(), (first, second)->{
+        calc.doBiOperation(event.getOperator(), (first, second) -> {
             return first.add(second);
         }, null);
     }
