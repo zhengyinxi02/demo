@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 public class Calculator {
-    private static Integer SCALE_FOR_DISPLAY = 15;
+    private static Integer SCALE_FOR_DISPLAY = 10;
     DecimalFormat decimalFormat;
     //stack to show to user
     private Stack<BigDecimal> values;
