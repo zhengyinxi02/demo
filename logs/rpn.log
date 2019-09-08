@@ -1,0 +1,628 @@
+2019-09-07 23:57:32.286  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 27016 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-07 23:57:32.290 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-07 23:57:32.291  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-07 23:57:32.346  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-07 23:57:34.310  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-07 23:57:34.508  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-07 23:57:34.709  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.817 seconds (JVM running for 4.548)
+2019-09-08 00:04:34.706  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 2676 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:04:34.723 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:04:34.724  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:04:34.774  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:04:36.288  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:04:36.412  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:04:36.529  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.189 seconds (JVM running for 3.889)
+2019-09-08 00:05:11.649  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 7420 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:05:11.653 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:05:11.654  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:05:11.703  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:05:13.157  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:05:13.269  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:05:13.392  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.09 seconds (JVM running for 4.042)
+2019-09-08 00:10:20.999  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 11064 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:10:21.003 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:10:21.003  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:10:21.050  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:10:22.638  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:10:22.749  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:10:22.896  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.276 seconds (JVM running for 4.075)
+2019-09-08 00:11:06.097  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 00:11:06.106 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.UnsupportedOperationException: 
+	at com.example.demo.calculator.CalculateEventFactory.createNumberEvent(CalculateEventFactory.java:26)
+	at com.example.demo.calculator.CalculateEventFactory.create(CalculateEventFactory.java:40)
+	at com.example.demo.shellcommands.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:31)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 00:11:15.719  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 15600 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:11:15.723 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:11:15.724  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:11:15.772  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:11:17.231  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:11:17.340  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:11:17.457  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.15 seconds (JVM running for 3.905)
+2019-09-08 00:13:06.271  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 19404 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:13:06.275 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:13:06.275  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:13:06.324  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:13:07.799  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:13:07.913  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:13:08.043  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.204 seconds (JVM running for 3.934)
+2019-09-08 00:13:22.609  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 00:13:22.617 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.UnsupportedOperationException: 
+	at com.example.demo.calculator.CalculateEventFactory.createNumberEvent(CalculateEventFactory.java:26)
+	at com.example.demo.calculator.CalculateEventFactory.create(CalculateEventFactory.java:40)
+	at com.example.demo.shellcommands.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:31)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 00:13:47.985  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 2604 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:13:48.006 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:13:48.007  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:13:48.071  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:13:49.629  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:13:49.746  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:13:49.893  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.291 seconds (JVM running for 3.979)
+2019-09-08 00:13:53.265  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 00:13:53.276 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.UnsupportedOperationException: 
+	at com.example.demo.calculator.CalculateEventFactory.createNumberEvent(CalculateEventFactory.java:26)
+	at com.example.demo.calculator.CalculateEventFactory.create(CalculateEventFactory.java:40)
+	at com.example.demo.shellcommands.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:31)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 00:16:15.238  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 6212 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:16:15.256 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:16:15.257  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:16:15.312  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:16:16.857  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:16:16.963  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:16:17.083  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.427 seconds (JVM running for 4.207)
+2019-09-08 00:16:32.910  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 00:16:32.918 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.util.EmptyStackException
+	at java.util.Stack.peek(Stack.java:102)
+	at java.util.Stack.pop(Stack.java:84)
+	at com.example.demo.calculator.Calculator.undoBiOperation(Calculator.java:96)
+	at com.example.demo.calculator.Calculator.undo(Calculator.java:82)
+	at com.example.demo.calculator.handler.UndoEventHandler.onEvent(UndoEventHandler.java:22)
+	at com.example.demo.calculator.handler.UndoEventHandler.onEvent(UndoEventHandler.java:9)
+	at com.example.demo.event.EventDispatcher.dispatch(EventDispatcher.java:22)
+	at com.example.demo.shellcommands.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:34)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 00:22:58.839  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 27884 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:22:58.844 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:22:58.845  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:22:58.907  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:23:00.438  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:23:00.547  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:23:00.668  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.294 seconds (JVM running for 3.967)
+2019-09-08 00:26:23.015  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 23652 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:26:23.020 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:26:23.020  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:26:23.071  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:26:24.602  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:26:24.713  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:26:24.836  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.21 seconds (JVM running for 3.905)
+2019-09-08 00:27:31.747  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 00:27:31.757 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.UnsupportedOperationException: undi
+	at com.example.demo.calculator.CalculateEventFactory.createNumberEvent(CalculateEventFactory.java:26)
+	at com.example.demo.calculator.CalculateEventFactory.create(CalculateEventFactory.java:40)
+	at com.example.demo.shellcommands.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:34)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 00:29:57.663  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 26552 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:29:57.668 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:29:57.673  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:29:57.733  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:29:59.287  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:29:59.400  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:29:59.518  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.347 seconds (JVM running for 4.013)
+2019-09-08 00:30:47.459  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 2892 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:30:47.464 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:30:47.465  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:30:47.518  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:30:49.475  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:30:49.589  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:30:49.717  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.707 seconds (JVM running for 4.5)
+2019-09-08 00:30:55.857  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 984 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:30:55.862 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:30:55.863  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:30:55.932  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:30:57.466  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:30:57.573  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:30:57.699  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.327 seconds (JVM running for 4.184)
+2019-09-08 00:40:44.113  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 17740 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:40:44.121 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:40:44.123  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:40:44.238  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:40:45.735  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:40:45.852  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:40:45.972  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.197 seconds (JVM running for 3.777)
+2019-09-08 00:41:58.835  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 10520 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:41:58.841 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:41:58.841  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:41:58.890  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:42:00.442  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:42:00.552  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:42:00.676  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.198 seconds (JVM running for 3.879)
+2019-09-08 00:46:40.779  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 25896 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 00:46:40.784 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 00:46:40.785  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 00:46:40.834  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 00:46:42.323  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 00:46:42.437  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 00:46:42.558  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.206 seconds (JVM running for 4.038)
+2019-09-08 12:46:23.806  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 9208 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 12:46:23.814 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 12:46:23.815  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 12:46:23.887  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 12:46:25.341  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 12:46:25.450  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 12:46:25.572  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 111.88 seconds (JVM running for 117.005)
+2019-09-08 14:24:27.075  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 7544 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 14:24:27.080 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 14:24:27.081  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 14:24:27.159  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 14:24:28.826  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 14:24:28.932  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 14:24:29.062  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.365 seconds (JVM running for 4.507)
+2019-09-08 14:25:08.851  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 14:25:08.860 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ArithmeticException: Rounding necessary
+	at java.math.BigDecimal.commonNeedIncrement(BigDecimal.java:4148)
+	at java.math.BigDecimal.needIncrement(BigDecimal.java:4355)
+	at java.math.BigDecimal.divideAndRound(BigDecimal.java:4330)
+	at java.math.BigDecimal.setScale(BigDecimal.java:2470)
+	at java.math.BigDecimal.setScale(BigDecimal.java:2512)
+	at com.example.demo.calculator.Calculator.lambda$getValues$0(Calculator.java:42)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.example.demo.calculator.Calculator.getValues(Calculator.java:46)
+	at com.example.demo.calculator.Calculator$$FastClassBySpringCGLIB$$ee9d2a54.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.example.demo.calculator.Calculator$$EnhancerBySpringCGLIB$$4dda492d.getValues(<generated>)
+	at com.example.demo.shellcommands.AbstractShellCalculatorCommand.stackToString(AbstractShellCalculatorCommand.java:18)
+	at com.example.demo.calculator.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:52)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 14:25:47.196  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 20536 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 14:25:47.200 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 14:25:47.201  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 14:25:47.253  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 14:25:48.903  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 14:25:49.007  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 14:25:49.147  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.306 seconds (JVM running for 4.187)
+2019-09-08 15:16:46.877  INFO DESKTOP-8NS9V0S --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.ApplicationTests], using SpringBootContextLoader
+2019-09-08 15:16:46.885  INFO DESKTOP-8NS9V0S --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.demo.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-09-08 15:16:46.887  INFO DESKTOP-8NS9V0S --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-09-08 15:16:47.033  INFO DESKTOP-8NS9V0S --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.Application for test class com.example.demo.ApplicationTests
+2019-09-08 15:16:47.142  INFO DESKTOP-8NS9V0S --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-09-08 15:16:47.157  INFO DESKTOP-8NS9V0S --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@33ecda92, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14fc5f04, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e2829c7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3feb2dda, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6a8658ff, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1c742ed4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@333d4a8c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55de24cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@dc7df28]
+2019-09-08 15:16:47.524  INFO DESKTOP-8NS9V0S --- [           main] c.e.d.ApplicationTests                   : Starting ApplicationTests on DESKTOP-8NS9V0S with PID 19032 (started by xixi in D:\Projects\demo)
+2019-09-08 15:16:47.527 DEBUG DESKTOP-8NS9V0S --- [           main] c.e.d.ApplicationTests                   : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 15:16:47.528  INFO DESKTOP-8NS9V0S --- [           main] c.e.d.ApplicationTests                   : No active profile set, falling back to default profiles: default
+2019-09-08 15:16:50.621  WARN DESKTOP-8NS9V0S --- [           main] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 15:16:50.792  INFO DESKTOP-8NS9V0S --- [           main] c.e.d.ApplicationTests                   : Started ApplicationTests in 3.593 seconds (JVM running for 4.914)
+2019-09-08 15:24:42.256  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 25956 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 15:24:42.260 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 15:24:42.261  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 15:24:42.306  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 15:24:43.916  WARN DESKTOP-8NS9V0S --- [  restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Command description cannot be null or empty
+2019-09-08 15:24:43.928  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 15:24:43.936 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Command description cannot be null or empty
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Command description cannot be null or empty
+	at org.springframework.util.Assert.isTrue(Assert.java:118)
+	at org.springframework.shell.Command$Help.<init>(Command.java:49)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.lambda$register$0(StandardMethodTargetRegistrar.java:68)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:410)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.register(StandardMethodTargetRegistrar.java:59)
+	at org.springframework.shell.Shell.gatherMethodTargets(Shell.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	... 22 more
+2019-09-08 15:24:55.272  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 23336 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 15:24:55.276 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 15:24:55.277  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 15:24:55.338  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 15:24:57.000  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 15:24:57.115  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 15:24:57.240  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.414 seconds (JVM running for 4.135)
+2019-09-08 15:26:33.712  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 15:26:33.721 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NumberFormatException: Infinite or NaN
+	at java.math.BigDecimal.<init>(BigDecimal.java:895)
+	at java.math.BigDecimal.<init>(BigDecimal.java:872)
+	at com.example.demo.calculator.handler.SqrtEventHandler.lambda$onEvent$0(SqrtEventHandler.java:27)
+	at com.example.demo.calculator.Calculator.doOperation(Calculator.java:70)
+	at com.example.demo.calculator.handler.SqrtEventHandler.onEvent(SqrtEventHandler.java:24)
+	at com.example.demo.calculator.handler.SqrtEventHandler.onEvent(SqrtEventHandler.java:12)
+	at com.example.demo.event.EventDispatcher.dispatch(EventDispatcher.java:22)
+	at com.example.demo.calculator.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:42)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 15:40:58.810  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 9464 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 15:40:58.814 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 15:40:58.815  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 15:40:58.862  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 15:41:00.647  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 15:41:00.764  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 15:41:00.887  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.487 seconds (JVM running for 4.116)
+2019-09-08 15:42:05.307  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 26596 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 15:42:05.313 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 15:42:05.314  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 15:42:05.365  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 15:42:06.953  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 15:42:07.060  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 15:42:07.183  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.28 seconds (JVM running for 4.007)
+2019-09-08 15:58:19.555  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 29628 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 15:58:19.561 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 15:58:19.564  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 15:58:19.619  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 15:58:21.466  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 15:58:21.874  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.664 seconds (JVM running for 3.593)
+2019-09-08 16:14:26.606  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 27892 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 16:14:26.610 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 16:14:26.610  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 16:14:26.681  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 16:14:28.250  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 16:14:28.369  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 16:14:28.500  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.282 seconds (JVM running for 4.322)
+2019-09-08 16:18:53.044  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 6668 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 16:18:53.049 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 16:18:53.049  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 16:18:53.096  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 16:18:55.097  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 16:18:55.208  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 16:18:55.332  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.702 seconds (JVM running for 4.519)
+2019-09-08 16:21:09.169  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 16:21:09.177 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ArithmeticException: Non-terminating decimal expansion; no exact representable decimal result.
+	at java.math.BigDecimal.divide(BigDecimal.java:1690)
+	at com.example.demo.calculator.handler.DivideEventHandler.lambda$onEvent$0(DivideEventHandler.java:23)
+	at com.example.demo.calculator.Calculator.doBiOperation(Calculator.java:60)
+	at com.example.demo.calculator.handler.DivideEventHandler.onEvent(DivideEventHandler.java:22)
+	at com.example.demo.calculator.handler.DivideEventHandler.onEvent(DivideEventHandler.java:9)
+	at com.example.demo.event.EventDispatcher.dispatch(EventDispatcher.java:22)
+	at com.example.demo.calculator.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:43)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 16:21:25.611  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 22912 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 16:21:25.618 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 16:21:25.619  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 16:21:25.686  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 16:21:27.312  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 16:21:27.422  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 16:21:27.551  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.379 seconds (JVM running for 4.68)
+2019-09-08 16:21:47.913  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 16:21:47.923 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.example.demo.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ArithmeticException: Non-terminating decimal expansion; no exact representable decimal result.
+	at java.math.BigDecimal.divide(BigDecimal.java:1690)
+	at com.example.demo.calculator.handler.DivideEventHandler.lambda$onEvent$0(DivideEventHandler.java:23)
+	at com.example.demo.calculator.Calculator.doBiOperation(Calculator.java:62)
+	at com.example.demo.calculator.handler.DivideEventHandler.onEvent(DivideEventHandler.java:22)
+	at com.example.demo.calculator.handler.DivideEventHandler.onEvent(DivideEventHandler.java:9)
+	at com.example.demo.event.EventDispatcher.dispatch(EventDispatcher.java:22)
+	at com.example.demo.calculator.ShellCalculatorShellCommandImpl.run(ShellCalculatorShellCommandImpl.java:43)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluateDefault(SpringShellConfiguration.java:74)
+	at com.example.demo.config.SpringShellConfiguration$MyShell.evaluate(SpringShellConfiguration.java:85)
+	at org.springframework.shell.Shell.run(Shell.java:142)
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	... 10 more
+2019-09-08 16:22:19.465  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 23156 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 16:22:19.471 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 16:22:19.471  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 16:22:19.573  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 16:22:21.093  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 16:22:21.202  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 16:22:21.333  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.355 seconds (JVM running for 4.066)
+2019-09-08 21:28:46.963  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 31188 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 21:28:46.967 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 21:28:46.968  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 21:28:47.009  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 21:28:49.180  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 21:28:49.314  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 21:28:49.443  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.855 seconds (JVM running for 5.727)
+2019-09-08 21:41:38.275  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 31188 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 21:41:38.276 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 21:41:38.276  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 21:41:38.596  WARN DESKTOP-8NS9V0S --- [  restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'calculatorEventDispatcher': Unsatisfied dependency expressed through field 'handlers'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<com.example.demo.event.Handler<?>>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-08 21:41:38.602  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 21:41:38.920 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field handlers in com.example.demo.calculator.CalculatorEventDispatcher required a bean of type 'java.util.List' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.List' in your configuration.
+
+2019-09-08 21:41:42.480  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 31188 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 21:41:42.481 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 21:41:42.481  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 21:41:43.033  WARN DESKTOP-8NS9V0S --- [  restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'calculatorEventDispatcher': Unsatisfied dependency expressed through field 'handlers'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<com.example.demo.event.Handler<?>>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-08 21:41:43.038  INFO DESKTOP-8NS9V0S --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-08 21:41:43.569 ERROR DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field handlers in com.example.demo.calculator.CalculatorEventDispatcher required a bean of type 'java.util.List' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.List' in your configuration.
+
+2019-09-08 21:44:53.588  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 31188 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 21:44:53.589 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 21:44:53.590  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 21:44:54.198  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 21:44:54.205  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 21:44:54.238  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 0.712 seconds (JVM running for 970.522)
+2019-09-08 22:04:45.693  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 17948 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 22:04:45.699 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 22:04:45.704  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 22:04:45.821  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 22:04:47.780  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 22:04:47.887  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 22:04:48.006  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.941 seconds (JVM running for 4.795)
+2019-09-08 22:07:27.968  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 22020 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 22:07:27.972 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 22:07:27.973  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 22:07:28.023  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 22:07:30.259  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 22:07:30.379  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 22:07:30.533  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.958 seconds (JVM running for 5.093)
+2019-09-08 22:07:40.827  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 14060 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 22:07:40.832 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 22:07:40.832  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 22:07:40.883  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 22:07:42.500  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 22:07:42.611  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 22:07:42.733  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.324 seconds (JVM running for 3.976)
+2019-09-08 22:08:49.867  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 18992 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 22:08:49.872 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 22:08:49.873  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 22:08:49.922  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 22:08:51.500  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 22:08:51.605  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 22:08:51.722  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.302 seconds (JVM running for 4.078)
+2019-09-08 22:09:55.688  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 27556 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 22:09:55.692 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 22:09:55.693  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 22:09:55.750  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 22:09:57.321  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 22:09:57.427  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 22:09:57.556  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.369 seconds (JVM running for 3.984)
+2019-09-08 22:11:07.074  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 33152 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 22:11:07.081 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 22:11:07.082  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 22:11:07.133  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 22:11:08.691  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 22:11:08.808  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 22:11:08.941  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.256 seconds (JVM running for 4.241)
+2019-09-08 22:11:55.207  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Starting Application on DESKTOP-8NS9V0S with PID 13796 (D:\Projects\demo\target\classes started by xixi in D:\Projects\demo)
+2019-09-08 22:11:55.213 DEBUG DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-08 22:11:55.214  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : No active profile set, falling back to default profiles: default
+2019-09-08 22:11:55.339  INFO DESKTOP-8NS9V0S --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-08 22:11:56.994  INFO DESKTOP-8NS9V0S --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-08 22:11:57.101  WARN DESKTOP-8NS9V0S --- [  restartedMain] o.jline                                  : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2019-09-08 22:11:57.218  INFO DESKTOP-8NS9V0S --- [  restartedMain] c.e.d.Application                        : Started Application in 2.545 seconds (JVM running for 4.372)

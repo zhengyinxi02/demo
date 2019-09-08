@@ -21,6 +21,6 @@ public class DivideEventHandler implements Handler<DivideEvent> {
     public void onEvent(DivideEvent event) {
         calc.doBiOperation(event.getOperator(), (l, r) -> {
             return r.divide(l);
-        }, (l, r)-> !(l.signum() == 0));
+        }, (l, r)-> (l.signum() != 0));
     }
 }
