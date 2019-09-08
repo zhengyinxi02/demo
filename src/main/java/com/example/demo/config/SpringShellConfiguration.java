@@ -1,6 +1,8 @@
 package com.example.demo.config;
 
 import com.example.demo.shellcommands.DefaultShellCommand;
+import org.jline.utils.AttributedString;
+import org.jline.utils.AttributedStyle;
 import org.jline.utils.Signals;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -17,6 +19,7 @@ import org.springframework.shell.CommandNotFound;
 import org.springframework.shell.Input;
 import org.springframework.shell.ResultHandler;
 import org.springframework.shell.Shell;
+import org.springframework.shell.jline.PromptProvider;
 import org.springframework.shell.result.ResultHandlerConfig;
 
 import javax.validation.Validation;
@@ -27,6 +30,10 @@ import java.util.Collection;
 @Import(ResultHandlerConfig.class)
 public class SpringShellConfiguration {
 
+	@Bean
+	public PromptProvider myPromptProvider() {
+		return () -> new AttributedString("", AttributedStyle.DEFAULT.foreground(AttributedStyle.YELLOW));
+	}
 	@Bean
 	@Qualifier("spring-shell")
 	public ConversionService shellConversionService(ApplicationContext applicationContext) {
