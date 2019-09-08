@@ -15,7 +15,7 @@ public abstract class AbstractShellCalculatorCommand implements DefaultShellComm
 
 
     public String stackToString() {
-     return  String.format("stack: %s",
-             String.join(" ", stack.getValues().stream().map(String::valueOf).collect(Collectors.toList())));
+        return String.format("stack: %s",
+                String.join(" ", stack.getValues().stream().map(String::valueOf).collect(Collectors.toList())));
     }
 }

@@ -40,7 +40,7 @@ public class Calculator {
     }
 
     public List<String> getValues() {
-        return new ArrayList<>(values).stream().map(v->decimalFormat.format(v)).collect(Collectors.toList());
+        return new ArrayList<>(values).stream().map(v -> decimalFormat.format(v)).collect(Collectors.toList());
     }
 
     // + - * /
@@ -51,7 +51,7 @@ public class Calculator {
         }
         BigDecimal first = values.pop();
         BigDecimal second = values.pop();
-        if(validator !=null && !validator.apply(first, second)){
+        if (validator != null && !validator.apply(first, second)) {
             values.push(second);
             values.push(first);
             throw new IllegalOperatorException(operation);
@@ -70,7 +70,7 @@ public class Calculator {
         }
 
         BigDecimal first = values.pop();
-        if(validator !=null && !validator.apply(first)){
+        if (validator != null && !validator.apply(first)) {
             values.push(first);
             throw new IllegalOperatorException(operation);
         }

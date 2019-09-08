@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 @Component
 public class CalculateEventFactory {
 
-    Event createNumberEvent(String word){
+    Event createNumberEvent(String word) {
         BigDecimal bigDecimal = null;
         try {
             bigDecimal = NumberUtils.parseNumber(word, BigDecimal.class);
@@ -28,17 +28,25 @@ public class CalculateEventFactory {
         }
     }
 
-    public Event create(String word){
-        switch (word){
-            case Operations.ADDITION : return new AddEvent();
-            case Operations.SUBTRACTION : return new MinusEvent();
-            case Operations.MULTIPLICATION : return new MultiplyEvent();
-            case Operations.DIVISION : return new DivideEvent();
-            case Operations.SQRT : return new SqrtEvent();
-            case Operations.UNDO : return new UndoEvent();
-            case Operations.CLEAR : return new ClearEvent();
+    public Event create(String word) {
+        switch (word) {
+            case Operations.ADDITION:
+                return new AddEvent();
+            case Operations.SUBTRACTION:
+                return new MinusEvent();
+            case Operations.MULTIPLICATION:
+                return new MultiplyEvent();
+            case Operations.DIVISION:
+                return new DivideEvent();
+            case Operations.SQRT:
+                return new SqrtEvent();
+            case Operations.UNDO:
+                return new UndoEvent();
+            case Operations.CLEAR:
+                return new ClearEvent();
 
-            default: return createNumberEvent(word);
+            default:
+                return createNumberEvent(word);
         }
     }
 }

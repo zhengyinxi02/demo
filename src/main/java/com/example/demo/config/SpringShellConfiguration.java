@@ -30,70 +30,70 @@ import java.util.Collection;
 @Import(ResultHandlerConfig.class)
 public class SpringShellConfiguration {
 
-	@Bean
-	public PromptProvider myPromptProvider() {
-		return () -> new AttributedString("", AttributedStyle.DEFAULT.foreground(AttributedStyle.YELLOW));
-	}
-	@Bean
-	@Qualifier("spring-shell")
-	public ConversionService shellConversionService(ApplicationContext applicationContext) {
-		Collection<Converter> converters;
-		converters = applicationContext.getBeansOfType(Converter.class).values();
-		Collection<GenericConverter> genericConverters = applicationContext.getBeansOfType(GenericConverter.class).values();
-		Collection<ConverterFactory> converterFactories = applicationContext.getBeansOfType(ConverterFactory.class).values();
+    @Bean
+    public PromptProvider myPromptProvider() {
+        return () -> new AttributedString("", AttributedStyle.DEFAULT.foreground(AttributedStyle.YELLOW));
+    }
 
-		DefaultConversionService defaultConversionService = new DefaultConversionService();
-		for (Converter converter : converters) {
-			defaultConversionService.addConverter(converter);
-		}
-		for (GenericConverter genericConverter : genericConverters) {
-			defaultConversionService.addConverter(genericConverter);
-		}
-		for (ConverterFactory converterFactory : converterFactories) {
-			defaultConversionService.addConverterFactory(converterFactory);
-		}
-		return defaultConversionService;
-	}
+    @Bean
+    @Qualifier("spring-shell")
+    public ConversionService shellConversionService(ApplicationContext applicationContext) {
+        Collection<Converter> converters;
+        converters = applicationContext.getBeansOfType(Converter.class).values();
+        Collection<GenericConverter> genericConverters = applicationContext.getBeansOfType(GenericConverter.class).values();
+        Collection<ConverterFactory> converterFactories = applicationContext.getBeansOfType(ConverterFactory.class).values();
 
-	@Bean
-	@ConditionalOnMissingBean(Validator.class)
-	public Validator validator() {
-		return Validation.buildDefaultValidatorFactory().getValidator();
-	}
+        DefaultConversionService defaultConversionService = new DefaultConversionService();
+        for (Converter converter : converters) {
+            defaultConversionService.addConverter(converter);
+        }
+        for (GenericConverter genericConverter : genericConverters) {
+            defaultConversionService.addConverter(genericConverter);
+        }
+        for (ConverterFactory converterFactory : converterFactories) {
+            defaultConversionService.addConverterFactory(converterFactory);
+        }
+        return defaultConversionService;
+    }
 
-	@Bean
-	public Shell shell(@Qualifier("main") ResultHandler resultHandler) {
-		return new MyShell(resultHandler);
-	}
+    @Bean
+    @ConditionalOnMissingBean(Validator.class)
+    public Validator validator() {
+        return Validation.buildDefaultValidatorFactory().getValidator();
+    }
 
-	public static class MyShell extends Shell {
-		public MyShell(ResultHandler resultHandler) {
-			super(resultHandler);
-		}
+    @Bean
+    public Shell shell(@Qualifier("main") ResultHandler resultHandler) {
+        return new MyShell(resultHandler);
+    }
 
-		private Object evaluateDefault(Input input, CommandNotFound e ){
-			DefaultShellCommand bean = applicationContext.getBean(DefaultShellCommand.class);
-			if(bean == null) return e;
+    public static class MyShell extends Shell {
+        public MyShell(ResultHandler resultHandler) {
+            super(resultHandler);
+        }
 
-			Thread commandThread = Thread.currentThread();
-			Object sh = Signals.register("INT", () -> commandThread.interrupt());
-			try {
-				return bean.run(input);
-			}
-			finally {
-				Signals.unregister("INT", sh);
-			}
-		}
+        private Object evaluateDefault(Input input, CommandNotFound e) {
+            DefaultShellCommand bean = applicationContext.getBean(DefaultShellCommand.class);
+            if (bean == null) return e;
 
-		@Override
-		public Object evaluate(Input input) {
-			Object result = super.evaluate(input);
-			if(result instanceof CommandNotFound){
-				return evaluateDefault(input, (CommandNotFound)result);
-			}
-			return result;
+            Thread commandThread = Thread.currentThread();
+            Object sh = Signals.register("INT", () -> commandThread.interrupt());
+            try {
+                return bean.run(input);
+            } finally {
+                Signals.unregister("INT", sh);
+            }
+        }
 
-		}
+        @Override
+        public Object evaluate(Input input) {
+            Object result = super.evaluate(input);
+            if (result instanceof CommandNotFound) {
+                return evaluateDefault(input, (CommandNotFound) result);
+            }
+            return result;
 
-	}
+        }
+
+    }
 }
