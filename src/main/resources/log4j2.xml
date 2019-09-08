@@ -26,7 +26,7 @@
 
         <Root level="info">
             <AppenderRef ref="FileAppender" />
-            <AppenderRef ref="ConsoleAppender" />
+<!--            <AppenderRef ref="ConsoleAppender" />-->
         </Root>
     </Loggers>
 </Configuration>
