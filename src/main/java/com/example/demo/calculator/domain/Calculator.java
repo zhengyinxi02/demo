@@ -1,8 +1,9 @@
-package com.example.demo.calculator;
+package com.example.demo.calculator.domain;
 
 import com.example.demo.calculator.exception.IllegalOperatorException;
 import com.example.demo.calculator.exception.InsufficientParameterException;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
@@ -14,6 +15,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 @Slf4j
+@Component
 public class Calculator {
     private static Integer SCALE_FOR_DISPLAY = 10;
     DecimalFormat decimalFormat;

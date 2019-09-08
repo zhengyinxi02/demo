@@ -1,4 +1,4 @@
-package com.example.demo.calculator;
+package com.example.demo.calculator.domain;
 
 public class Operations {
     public static final String ADDITION = "+";

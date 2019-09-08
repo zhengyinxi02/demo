@@ -1,6 +1,6 @@
 package com.example.demo.calculator.handler;
 
-import com.example.demo.calculator.Calculator;
+import com.example.demo.calculator.domain.Calculator;
 import com.example.demo.calculator.event.MinusEvent;
 import com.example.demo.event.Handler;
 import org.springframework.beans.factory.annotation.Autowired;

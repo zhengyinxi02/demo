@@ -1,5 +1,6 @@
-package com.example.demo.calculator;
+package com.example.demo.calculator.domain;
 
+import com.example.demo.calculator.domain.Calculator;
 import com.example.demo.calculator.exception.IllegalOperatorException;
 import com.example.demo.calculator.exception.InsufficientParameterException;
 import org.junit.After;

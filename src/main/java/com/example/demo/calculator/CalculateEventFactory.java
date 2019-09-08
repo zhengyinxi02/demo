@@ -1,5 +1,6 @@
 package com.example.demo.calculator;
 
+import com.example.demo.calculator.domain.Operations;
 import com.example.demo.calculator.event.AddEvent;
 import com.example.demo.calculator.event.ClearEvent;
 import com.example.demo.calculator.event.DivideEvent;

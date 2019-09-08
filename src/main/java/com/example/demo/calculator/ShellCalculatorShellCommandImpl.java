@@ -5,7 +5,6 @@ import com.example.demo.calculator.exception.IllegalOperatorException;
 import com.example.demo.calculator.exception.InsufficientParameterException;
 import com.example.demo.event.Event;
 import com.example.demo.event.EventDispatcher;
-import com.example.demo.shellcommands.AbstractShellCalculatorCommand;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.shell.Input;

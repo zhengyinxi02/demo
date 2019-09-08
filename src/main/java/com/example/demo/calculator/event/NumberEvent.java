@@ -1,6 +1,6 @@
 package com.example.demo.calculator.event;
 
-import com.example.demo.calculator.Operations;
+import com.example.demo.calculator.domain.Operations;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
