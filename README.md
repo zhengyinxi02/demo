@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> Standard Readme Style
+> Programming Exercise - RPN Calculator
 
 Some of the best calculators in the world have an ‘RPN’ (reverse polish notation) mode.
 We would like you to write a commandline based RPN calculator.
@@ -51,11 +51,13 @@ ed.
 
 ```sh
 - ./mvnw clean install
+```
+## Run
+```sh
 - ./mvnw spring-boot:run
 ```
 
 ## Usage
-
 
 Example 1
 ```sh
