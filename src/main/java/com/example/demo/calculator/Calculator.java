@@ -5,7 +5,6 @@ import com.example.demo.calculator.exception.InsufficientParameterException;
 import lombok.extern.slf4j.Slf4j;
 
 import java.math.BigDecimal;
-import java.math.MathContext;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;

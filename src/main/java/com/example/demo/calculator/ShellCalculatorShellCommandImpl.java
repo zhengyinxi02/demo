@@ -3,7 +3,6 @@ package com.example.demo.calculator;
 import com.example.demo.calculator.event.Operator;
 import com.example.demo.calculator.exception.IllegalOperatorException;
 import com.example.demo.calculator.exception.InsufficientParameterException;
-import com.example.demo.calculator.CalculateEventFactory;
 import com.example.demo.event.Event;
 import com.example.demo.event.EventDispatcher;
 import com.example.demo.shellcommands.AbstractShellCalculatorCommand;
