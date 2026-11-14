@@ -29,3 +29,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Seat Ops (Node) ###
+node_modules/
+dist/
+api/data/store.json
+api/data/*.tmp
+*.log
+.DS_Store
+web/dist/
+api/dist/
+adapter-mock/dist/
