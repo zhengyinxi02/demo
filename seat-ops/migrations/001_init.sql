@@ -1,0 +1,132 @@
+CREATE TABLE IF NOT EXISTS meta (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS app_users (
+  id TEXT PRIMARY KEY,
+  subject TEXT UNIQUE NOT NULL,
+  email TEXT NOT NULL,
+  display_name TEXT NOT NULL,
+  role TEXT NOT NULL DEFAULT 'ops',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS channels (
+  id TEXT PRIMARY KEY,
+  type TEXT NOT NULL,
+  name TEXT NOT NULL,
+  enabled BOOLEAN NOT NULL DEFAULT TRUE,
+  note TEXT
+);
+
+CREATE TABLE IF NOT EXISTS risk_rules (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  scope TEXT NOT NULL,
+  metric TEXT NOT NULL,
+  threshold DOUBLE PRECISION NOT NULL,
+  action TEXT NOT NULL,
+  version INT NOT NULL DEFAULT 1,
+  enabled BOOLEAN NOT NULL DEFAULT TRUE
+);
+
+CREATE TABLE IF NOT EXISTS permission_templates (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  allow_open BOOLEAN NOT NULL DEFAULT TRUE,
+  allow_close BOOLEAN NOT NULL DEFAULT TRUE,
+  product_groups TEXT NOT NULL DEFAULT '[]',
+  note TEXT
+);
+
+CREATE TABLE IF NOT EXISTS operators (
+  id TEXT PRIMARY KEY,
+  code TEXT NOT NULL UNIQUE,
+  name TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS investors (
+  id TEXT PRIMARY KEY,
+  investor_code TEXT NOT NULL UNIQUE,
+  name TEXT NOT NULL,
+  status TEXT NOT NULL,
+  source TEXT NOT NULL,
+  template_id TEXT,
+  freeze_open BOOLEAN NOT NULL DEFAULT FALSE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS grants (
+  id TEXT PRIMARY KEY,
+  operator_id TEXT NOT NULL,
+  investor_id TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS fund_accounts (
+  investor_id TEXT PRIMARY KEY,
+  balance DOUBLE PRECISION NOT NULL DEFAULT 0,
+  available DOUBLE PRECISION NOT NULL DEFAULT 0,
+  margin DOUBLE PRECISION NOT NULL DEFAULT 0,
+  frozen DOUBLE PRECISION NOT NULL DEFAULT 0,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS cash_requests (
+  id TEXT PRIMARY KEY,
+  investor_id TEXT NOT NULL,
+  type TEXT NOT NULL,
+  amount DOUBLE PRECISION NOT NULL,
+  status TEXT NOT NULL,
+  remark TEXT,
+  created_by TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  decided_at TIMESTAMPTZ,
+  decided_by TEXT
+);
+
+CREATE TABLE IF NOT EXISTS ledger (
+  id TEXT PRIMARY KEY,
+  investor_id TEXT NOT NULL,
+  kind TEXT NOT NULL,
+  amount DOUBLE PRECISION NOT NULL,
+  balance_after DOUBLE PRECISION NOT NULL,
+  ref_type TEXT,
+  ref_id TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS sync_jobs (
+  id TEXT PRIMARY KEY,
+  status TEXT NOT NULL,
+  ok_count INT NOT NULL DEFAULT 0,
+  fail_count INT NOT NULL DEFAULT 0,
+  conflict_count INT NOT NULL DEFAULT 0,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  finished_at TIMESTAMPTZ,
+  raw_summary TEXT
+);
+
+CREATE TABLE IF NOT EXISTS sync_conflicts (
+  id TEXT PRIMARY KEY,
+  job_id TEXT NOT NULL,
+  investor_code TEXT NOT NULL,
+  field TEXT NOT NULL,
+  local_value TEXT NOT NULL,
+  remote_value TEXT NOT NULL,
+  reason TEXT NOT NULL,
+  status TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  resolved_at TIMESTAMPTZ
+);
+
+CREATE TABLE IF NOT EXISTS audit_logs (
+  id TEXT PRIMARY KEY,
+  actor_id TEXT NOT NULL,
+  actor_name TEXT NOT NULL,
+  action TEXT NOT NULL,
+  target TEXT,
+  detail TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);

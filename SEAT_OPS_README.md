@@ -1,8 +1,20 @@
-# 期货次席管理系统 · 本地可调试版（Phase 0–1）
+# 期货次席管理系统 · Phase 0–1
 
-面向运营的 Web 管理后台原型，可在本机直接跑起来调试、点页面。
+## 云上优先（推荐）
 
-## 一键启动
+可发布目录：**`seat-ops/`**（Next.js + Cursor Identity + Postgres/PGlite）
+
+```bash
+cd seat-ops
+npm install
+npm run dev
+```
+
+打开 **http://127.0.0.1:3000**。云上通过 Cursor 私有/团队登录；本地使用模拟身份。
+
+详见 `seat-ops/README.md`。用 Cursor 聊天里的 Publish 确认发布。
+
+## 本地三进程版（web + api + adapter-mock）
 
 ```bash
 cd /path/to/demo

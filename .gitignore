@@ -40,3 +40,6 @@ api/data/*.tmp
 web/dist/
 api/dist/
 adapter-mock/dist/
+seat-ops/node_modules/
+seat-ops/.next/
+seat-ops/next-env.d.ts
