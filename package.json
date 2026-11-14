@@ -1,0 +1,21 @@
+{
+  "name": "seat-ops",
+  "private": true,
+  "version": "0.1.0",
+  "description": "期货次席管理系统 Phase 0–1 本地可调试原型",
+  "scripts": {
+    "dev": "concurrently -n api,web,mock -c blue,green,magenta \"npm run dev -w api\" \"npm run dev -w web\" \"npm run dev -w adapter-mock\"",
+    "dev:api": "npm run dev -w api",
+    "dev:web": "npm run dev -w web",
+    "install:all": "npm install",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "workspaces": [
+    "api",
+    "web",
+    "adapter-mock"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
